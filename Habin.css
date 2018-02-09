@@ -1,0 +1,97 @@
+body {
+	background-image: url("http://content.rustinandmallory.netdna-cdn.com/u/751/ANTHRO-PLAYSUIT-BLUSH-20859D__78785_std.jpg");
+}
+
+a {
+    text-decoration: none;
+}
+
+#studio {
+	position: absolute;
+    top: 7%;
+    left: 20%;
+    transform: translate(-50%);
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: center;
+    background-color:red;
+    color:white;
+
+}
+
+#workshop {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: center;
+    background-color:red;
+    color:white;
+
+}
+
+#lab {
+    position: absolute;
+    top: 7%;
+    left: 80%;
+    transform: translate(-50%);
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: center;
+    background-color:red;
+    color:white;
+
+}
+
+
+.S {
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 10%;
+    width:300px;
+
+}
+
+.W {
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 40%;
+    width:300px;
+
+}
+
+.L {
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 70%;
+    width:300px;
+}
+
+
+
+h6 {
+    text-decoration: none;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 0px;
+}
