@@ -1,0 +1,77 @@
+
+.wrapper {
+  width: 8.6cm;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.cigarette {
+  height: 20px;
+  position: relative;
+}
+
+.filter {
+  float: left;
+  background-color: #D29049;
+  height: 20px;
+  width: 2.4cm;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.space {
+  background-color: #FEF6ED;
+  width: 0.4cm;
+  border-right: 1px solid #C2C0BE;
+  height: 20px;
+  float: left;
+}
+
+body {
+  background:beige;
+  margin:0;
+  position:absolute;
+  top:50%;left:50%;
+  transform:translate(-50%,-50%)
+}
+
+
+.tobacco {
+  height: 20px;
+  width: 5.5cm;
+  background-color: #FEF6ED;
+  float: left;
+  border-radius: 0px 3px 3px 0px;
+  padding-left: 0.2cm;
+  position: relative;
+}
+
+.burn {
+  display: none;
+  width: 0.2cm;
+  height: 20px;
+  background-color: #f00;
+  position: absolute;
+  left: 5.5cm;
+  top: 0px;
+  border-radius: 0px 3px 3px 0px;
+  box-shadow: 0px 0px 10px 3px #333;
+  z-index: 100;
+}
+
+.btn-smoke, .btn-reset {
+  margin-top: 10px;
+  border-radius: 3px;
+  background: #6f6;
+  display: inline-block;
+  padding: 5px 10px;
+  font-family: Helvetica;
+  cursor: pointer;
+}
+
+.btn-smoke:hover, .btn-reset:hover {
+  background: linear-gradient(#9f9, #6f6);
+}
+
+.btn-reset {
+  display: none;
+}
